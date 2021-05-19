@@ -15,4 +15,4 @@ _The website for the AnimalTrack IOS app and the AnimalTrack Android app is foun
 
 
 
-[animaltrack.ca]: animaltrack.ca 
+[animaltrack.ca]: https://www.animaltrack.ca 
