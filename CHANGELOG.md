@@ -23,5 +23,15 @@ This project follows semantic versioning.
 
 ---
 
+## [0.0.2] - 2021-06-3
+
+### Additions
+
+- Created NavBar from BootStrap
+- Created 3 features of AnimalTrack
+
+---
+
 [Unreleased]: https://github.com
 [0.0.1]: https://github.com
+[0.0.2]: https://github.com
