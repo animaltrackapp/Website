@@ -1,46 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>AnimalTrack</title>
-    <link rel="shortcut icon" type="image/png" href="img/icon1xSmall2.png">
-    <link rel="stylesheet" type="text/css" href="css/index_style.css">
-</head>
+<html>
+    <head>
+        <title>AnimalTrack</title>
+        <link rel="stylesheet" href="css/index_style.css">
+        <link rel='shortcut icon' type='icon' href="img/icon1xSmall.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
 
-<body>
-    <span class="all">
-        <div id="imgs">
-        <img id="all_simulate" src="img/allthree.png" alt="Image not available right now . . .">
-        <img id="logo" src="img/logo1xFull.png" alt="Image not available right now . . .">
-        
-        <span id="downloadcontent">
-            <img id="applestore" src="img/app_store.png" alt="Image not available right now . . .">
-            <img id="googleplay" src="img/google_play.png" alt="Image not available right now . . .">
-        </span>
+    <body>
 
-        </div>
-
-        <div id="maincontent">
-            <div class="rectangle"></div>
-            <h1 id="header">AnimalTrack</h1>
-            <h2 id="subheader">Record & Protect</h2>
-            <h3 id="subheader2">Try out AnimalTrack App on your phone and<br>identify more than 10,000 animal/insect species!</h3>
-
-            <span id="tabs">
-                <div><h1 id="privacypolicy">Privacy Policy</h1></div>
-                <div><h1 id="aboutus">About Us</h1></div>
-                <div><h1 id="home">Home</h1></div>
-            </span>
-
-            <div class="features">
-                <h1 id="feature1">Protecting animals & insects by taking photos</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">AnimalTrack</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="html/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Other
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                      <li><a class="dropdown-item" href="#">Terms of Use</a></li>
+                      
+                    </ul>
+                  </li>
+                  
+                </ul>
+                
+              </div>
             </div>
+          </nav>
 
+        <div class="main-imgs">
+            <img class="all-simulate" src="img/allthree.png">
+            <img class="logo" src="img/logo1xSmall.png">
+            <img class="dl" id="aapl" src="img/app_store.png">
+            <img class="dl" id="gp" src="img/google_play.png">
         </div>
 
-    </span>
-    
-    
-</body>
+        <div class="main-text-content">
+            <h2 class="sub-title">Record & Protect</h2>
+        </div>
 
+        <div class="install-content">
+            <h1 class="install-welcome">Download the AnimalTrack app on your device!</h1>
+        </div>
+
+        <div class="second-page">
+            <div class="feature-1">
+                <h2 id="text-f1">Protecting animals & insects by taking photos</h2>
+                <img class="img-f1" src="img/protectinganimals.png">
+            </div>
+            <div class="feature-2">
+                <h2 id="text-f2">Identify animals/insects with a snap</h2>
+                <img class="img-f2" src="img/takingapicture.png">
+            </div>
+            <div class="feature-3">
+                <h2 id="text-f3">Comment on other's posts and explore different species</h2>
+                <img class="img-f3" src="img/chatting.png">
+            </div>
+        </div>
+
+        <div class="app-content">
+            <h2 id="about-app">AnimalTrack is an app that allows users to take photos of animals or insects, and then upload it to
+                a map where people can see them. <br>For example, if someone sees a squirrel in their backyard, they can
+                take out their phones and go to the app. <br>Then, they take a photo of it, and then upload it to the server.<br>
+                After this, users can go to the main map and see a thumnail appear on the place where they took the picture.</h2>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
 </html>
