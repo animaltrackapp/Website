@@ -1,0 +1,16 @@
+.content {
+    position: relative;
+    left: 2%;
+    top: 20px;
+    font-size: 30px;
+}
+
+.items {
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+
+#contact-email {
+    top: 70px;
+}
