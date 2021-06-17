@@ -32,6 +32,17 @@ This project follows semantic versioning.
 
 ---
 
+## [0.0.3] - 2021-6-17
+
+### Aditions
+
+- AboutUs.html
+
+### Deleted
+
+- .htaccess
+
 [Unreleased]: https://github.com
 [0.0.1]: https://github.com
 [0.0.2]: https://github.com
+[0.0.3]: https://github.com
