@@ -14,3 +14,20 @@
 #contact-email {
     top: 70px;
 }
+
+.sources {
+    position: relative;
+    left: 2%;
+}
+
+#sources {
+    position: relative;
+    left: 2%;
+}
+
+.globe {
+    position: relative;
+    height: 170px;
+    left: 50%;
+    top: 80px;
+}
