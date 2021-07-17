@@ -1,5 +1,5 @@
 # Website
 
-_The website for the AnimalTrack IOS app and the AnimalTrack Android app is found at __[animaltrack.ca]___  
+The website for the AnimalTrack iOS and Android app can be found at [`animaltrack.ca`]
 
-[animaltrack.ca]: https://www.animaltrack.ca 
+[`animaltrack.ca`]: https://www.animaltrack.ca 
