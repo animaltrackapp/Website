@@ -1,0 +1,71 @@
+#welcome-banner {
+    padding: 100px;
+    padding-left: 100px;
+}
+
+#title-logo {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+#nav {
+    float: right;
+    padding: 20px;
+}
+
+#dot-info {
+    position: relative;
+    bottom: 150px;
+    padding: 100px;
+    padding-left: 100px;
+    line-height: 50px;
+}
+
+#about-info {
+    position: relative;
+    bottom: 330px;
+    padding: 100px;
+    padding-left: 100px;
+    line-height: 30px;
+}
+
+#simulated {
+    position: relative;
+    bottom: 700px;
+    height: 800px;
+    padding: 100px;
+    padding-left: 100px;
+}
+
+#download {
+    position: relative;
+    top: 600px;
+    padding: 100px;
+    padding-left: 150px;
+    background-color: cyan;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#title-aboutus {
+    padding: 100px;
+    padding-left: 100px;
+}
+
+#aboutus {
+    position: relative;
+    bottom: 70px;
+    padding: 100px;
+    padding-left: 100px;
+    background-color: cyan;
+    margin-left: 80px;
+}
+
+#privacy-policy-content, #terms-of-use-content {
+    padding: 100px;
+    padding-left: 100px;
+}
+
+.aboutus-ul {
+    line-height: 50px;
+}
